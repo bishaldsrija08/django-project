@@ -6,17 +6,17 @@ This guide walks you through setting up a Django project using **Windows Command
 
 ## 📌 1. Create a Virtual Environment (CMD)
 ```cmd
-python -m venv myvenv
+python -m venv <yourVirtualEnvName>
 ```
 
 ---
 
 ## 📌 2. Activate the Virtual Environment (CMD)
 ```cmd
-myvenv\Scripts\activate
+<yourVirtualEnvName>\Scripts\activate
 ```
 
-After activation, you should see **(myvenv)** before your command prompt.
+After activation, you should see **<yourVirtualEnvName>** before your command prompt.
 
 ---
 
