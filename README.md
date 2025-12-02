@@ -22,7 +22,7 @@ After activation, you should see **<yourVirtualEnvName>** before your command pr
 
 ## 📌 3. Install Django (CMD)
 ```cmd
-pip install django
+pip install django // pip install django==5.0.0
 ```
 
 ---
