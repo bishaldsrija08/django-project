@@ -68,3 +68,10 @@ You now have:
 - A Django app ready to develop  
 
 Happy coding! 🎉
+
+
+
+## 📌 Migrate
+```cmd
+python manage.py migrate
+```
