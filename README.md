@@ -5,6 +5,7 @@ This guide walks you through setting up a Django project using **Windows Command
 ---
 
 ## 📌 1. Create a Virtual Environment (CMD)
+
 ```cmd
 python -m venv <yourVirtualEnvName>
 ```
@@ -12,6 +13,7 @@ python -m venv <yourVirtualEnvName>
 ---
 
 ## 📌 2. Activate the Virtual Environment (CMD)
+
 ```cmd
 <yourVirtualEnvName>\Scripts\activate
 ```
@@ -21,6 +23,7 @@ After activation, you should see **<yourVirtualEnvName>** before your command pr
 ---
 
 ## 📌 3. Install Django (CMD)
+
 ```cmd
 pip install django // pip install django==5.0.0
 ```
@@ -28,6 +31,7 @@ pip install django // pip install django==5.0.0
 ---
 
 ## 📌 4. Create a New Django Project (CMD)
+
 ```cmd
 django-admin startproject <projectName>
 ```
@@ -35,6 +39,7 @@ django-admin startproject <projectName>
 ---
 
 ## 📌 5. Navigate Into Your Project Folder (CMD)
+
 ```cmd
 cd <projectName>
 ```
@@ -42,6 +47,7 @@ cd <projectName>
 ---
 
 ## 📌 6. Run the Development Server (CMD)
+
 ```cmd
 python manage.py runserver
 ```
@@ -52,6 +58,7 @@ Your project will be available at:
 ---
 
 ## 📌 7. Create a Django App (CMD)
+
 ```cmd
 django-admin startapp <yourAppName>
 ```
@@ -62,16 +69,15 @@ django-admin startapp <yourAppName>
 
 You now have:
 
-- A virtual environment  
-- Django installed  
-- A Django project created  
-- A Django app ready to develop  
+- A virtual environment
+- Django installed
+- A Django project created
+- A Django app ready to develop
 
 Happy coding! 🎉
 
-
-
 ## 📌 Migrate
+
 ```cmd
 python manage.py migrate
 ```
